@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
         unique: true
       },
-      locations: {
+      location: {
         type: Sequelize.STRING,
         // validate: {
         //   min: 0
