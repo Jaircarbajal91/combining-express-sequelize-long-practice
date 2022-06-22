@@ -14,13 +14,13 @@ module.exports = {
         unique: true
       },
       location: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING
         // validate: {
         //   min: 0
         // }
       },
       heightFt: {
-        type: Sequelize.FLOAT,
+        type: Sequelize.FLOAT
         // validate: {
         //   min: 0
         // }

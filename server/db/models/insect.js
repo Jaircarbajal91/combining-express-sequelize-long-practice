@@ -29,8 +29,12 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
-    description: DataTypes.STRING,
-    territory: DataTypes.STRING,
+    description: {
+      type: DataTypes.STRING
+    },
+    territory: {
+      type: DataTypes.STRING
+    },
     fact: {
       type: DataTypes.STRING,
       validate: {

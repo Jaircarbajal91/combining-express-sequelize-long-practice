@@ -25,6 +25,9 @@ module.exports = (sequelize, DataTypes) => {
         min: 0
       }
     },
+    location: {
+      type: DataTypes.STRING
+    }
     groundCircumferenceFt: {
       type: DataTypes.FLOAT,
       validate: {
